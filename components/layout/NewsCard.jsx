@@ -2,19 +2,18 @@ import Image from 'next/image';
 import GIRL from "../../public/images/girl-plY.webp";
 
 
-const NewsCard = () => {
+const NewsCard = ({image,span,category,title,content}) => {
   return (
     <div>
       <div className='relative'>
-        <Image src={GIRL} className='w-full' alt='' />
-        <p className='absolute bottom-0 left-0 bg-slate-200 py-1 px-2 text-[0.8rem]'>TUM in ranking</p>
+        <Image src={image} className='w-full' alt='' />
+        <p className='absolute bottom-0 left-0 bg-slate-200 py-1 px-2 text-[0.8rem]'>{title}</p>
       </div>
       <div className='mt-3'>
-        <h3 className='font-medium text-lg'>WirtschaftsWoche rankings</h3>
-        <h2 className='font-bold text-xl my-2'>Germanys strongest university in business sciences</h2>
+        <h3 className='font-medium text-lg'>{span}</h3>
+        <h2 className='font-bold text-xl my-2'>{category}</h2>
         <p className='text-sm'>
-          TUM has retained its ranking as Germanys strongest research university in business sciences. The latest issue
-          of the...
+          {content}
         </p>
       </div>
       <div className='flex justify-between mt-5 text-sm'>

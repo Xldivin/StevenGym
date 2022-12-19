@@ -4,7 +4,7 @@ import tum from "../../public/images/tum-bg.png";
 import Leibniz from "../../public/images/Leibniz.webp"
 import Birgit from "../../public/images/Birgit.webp"
 
-const NewsLower = () => {
+const BottomNews = () => {
   return (
     <Wrapper>
       <div className="my-10 flex gap-6 justify-end mr-48">
@@ -36,4 +36,4 @@ const NewsLower = () => {
   );
 };
 
-export default NewsLower;
+export default BottomNews;

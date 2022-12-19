@@ -1,7 +1,8 @@
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
+import BottomNews from "../components/sections/BottomNews";
 import Entreprenuer from "../components/sections/Entreprenuer";
-import NewsLower from "../components/sections/NewLower";
+import Giving from "../components/sections/Giving";
 import News from "../components/sections/News";
 
 export default function Home() {
@@ -10,7 +11,8 @@ export default function Home() {
    <Navbar />
    <Entreprenuer />
    <News />
-   <NewsLower />
+   <BottomNews />
+   <Giving />
    <Footer />
     </>
   )

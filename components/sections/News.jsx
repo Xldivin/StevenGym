@@ -5,6 +5,8 @@ import Wrapper from "../layout/wrapper";
 import NewsCard from "../layout/NewsCard";
 import Button from "../layout/Button";
 import tum from "../../public/images/tum-bg.png";
+import board from "../../public/images/board.webp"
+import girl from "../../public/images/girl-plY.webp"
 
 
 function News() {
@@ -26,7 +28,7 @@ function News() {
         <div className="w-[280px]">
         <NewsCard
           className="col-start-3"
-          image={tum}
+          image={girl}
           span="Research"
           category="Germany´s top research award"
           title="Leibniz Prize for Biomathematician Fabian Theis"
@@ -37,7 +39,7 @@ function News() {
       </div>
       <div className="w-[280px]">
         <NewsCard
-          image={tum}
+          image={board}
           span="Sustainability"
           category="Awards for sustainability projects"
           title="New partnership with the Nobel Sustainability Trust"
