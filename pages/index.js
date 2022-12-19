@@ -1,6 +1,6 @@
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
-import Entrepreneurial from "../components/sections/Entreprenuer";
+import Entreprenuer from "../components/sections/Entreprenuer";
 import NewsLower from "../components/sections/NewLower";
 import News from "../components/sections/News";
 
