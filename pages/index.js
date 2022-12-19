@@ -1,10 +1,13 @@
+import Footer from "../components/footer";
+import Navbar from "../components/navbar";
+import Entrepreneurial from "../components/sections/entrepreneurial";
 
 export default function Home() {
   return (
     <>
-    <h1 className="text-3xl font-bold underline text-red-500">
-    My name is Steven
-  </h1>
+   <Navbar />
+   <Entrepreneurial />
+   <Footer />
     </>
   )
 }

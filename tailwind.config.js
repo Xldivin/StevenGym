@@ -5,7 +5,17 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'roboto': ['Roboto', 'sans-serif'],
+      },
+      backgroundColor:{
+        "dark-blue":"#072140",
+      },
+      background: {
+        'image-bg': 'url(../../public/images/enterprenuer.gif)',
+      },
+    },
   },
   plugins: [],
 }
