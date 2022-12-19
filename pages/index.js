@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
    <Navbar />
-   <Entrepreneurial />
+   <Entreprenuer />
    <News />
    <NewsLower />
    <Footer />

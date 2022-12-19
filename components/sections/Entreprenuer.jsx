@@ -1,7 +1,7 @@
 import Image from "next/image";
 import tum from "../../public/images/tum-bg.png";
 
-const Entrepreneurial = () => {
+const Entreprenuer = () => {
   return (
     <div className="relative shadow-inner h-[44rem]">
       <Image
@@ -21,4 +21,4 @@ const Entrepreneurial = () => {
   );
 };
 
-export default Entrepreneurial;
+export default Entreprenuer;
