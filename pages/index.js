@@ -5,6 +5,7 @@ import Discover from "../components/sections/Discover";
 import Entreprenuer from "../components/sections/Entreprenuer";
 import Giving from "../components/sections/Giving";
 import News from "../components/sections/News";
+import Numbers from "../components/sections/Numbers";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
    <News />
    <BottomNews />
    <Discover />
+   <Numbers />
    <Giving />
    <Footer />
     </>
